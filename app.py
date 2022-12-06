@@ -10,7 +10,7 @@ model = pickle.load(open("flight_fare_prediction.pkl", "rb"))
 @app.route("/")
 @cross_origin()
 def home():
-    return render_template("index.html")
+    return render_template("home.html")
 
 @app.route("/predict", methods = ["GET", "POST"])
 @cross_origin()
