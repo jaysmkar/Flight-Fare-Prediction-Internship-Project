@@ -46,7 +46,6 @@ def predict():
         # print(Total_stops)
 
         # Airline
-        # AIR ASIA = 0 (not in column)
         airline=request.form.get('airline')
         if(airline=='Jet Airways'):
             Jet_Airways = 1
