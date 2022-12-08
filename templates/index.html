@@ -1,41 +1,38 @@
 <html lang="en">
-
 <head>
+
+    <style>
+        body {
+          background-image: url('https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+          background-repeat: no-repeat;
+          background-attachment: fixed; 
+          background-size: 100% 100%;
+        }
+    </style>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flight Price Prediction</title>
-
 
     <!-- BootStrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-
     <!-- css -->
     <link rel="stylesheet" href="static/css/styles.css">
-
-
 </head>
 
 <body>
     <!-- As a heading -->
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="/">WELCOME TO FLIGHT FARE PREDICTOR</a>
-            </div>
-        </div>
-    </nav>
+    <header>
+        <center><h1>Flight Fare Predictor</h1></center>
+    </header> 
 
     <br><br><br>
 
     <div class="container">
 
-
-
         <form action="\predict" method="post">
-
 
             <div class="row">
                 <div class="col-sm-6">
@@ -97,8 +94,6 @@
                 </div>
             </div>
 
-
-
             <br>
             <br>
             <br>
@@ -144,13 +139,14 @@
                 </div>
             </div>
 
-
-
             <br>
             <br>
             <br>
             <!-- Submit -->
-            <input type="submit" value="Submit" class="btn btn-secondary">
+            <div class="container text-center">
+                <input type="submit" value="Submit" class="btn btn-secondary bg-success">
+            </div>
+
         </form>
 
         <br>
@@ -159,12 +155,8 @@
 
         <br>
         <br>
-        <p>@2022 Jayesh</p>
-
+        <p>@Dec_2022 Jayesh</p>
     </div>
-
-
-
 
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
